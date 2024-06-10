@@ -10,6 +10,8 @@ export default defineConfig({
   plugins: [
     Pages(),
     react(),
-    Sitemap()
+    Sitemap({
+      hostname: 'https://www.allmovieshub.live'
+    })
   ],
 })
